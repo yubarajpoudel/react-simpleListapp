@@ -1,4 +1,5 @@
 'use strict';
+var SearchResults = require('./SearchResults');
  
 import React, { Component } from 'react'
 import {
@@ -106,7 +107,13 @@ _executeQuery(query) {
  _handleResponse(response) {
   this.setState({ isLoading: false , message: '' });
   if (response.application_response_code.substr(0, 1) === '1') {
-    console.log('Properties found: ' + response.listings.length);
+   // console.log('Properties found: ' + response.listings.length);
+   // this.setState({message : 'on Handlequery, response = ' + response.listings})
+    this.props.navigator.push({
+         title: 'Search Result',
+         component: SearchResults,
+         passProps: {listings: response.listings}
+     });
   } else {
     this.setState({ message: 'Location not recognized; please try again.'});
   }
