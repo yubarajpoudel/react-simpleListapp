@@ -137,7 +137,7 @@ onSearchPressed() {
       <View style={styles.container}>
    
         <Text style={styles.description}>
-          Search by Radio channel by name
+          Search by Property by city name
         </Text>
 
         <View style = {styles.flowRight}>
@@ -145,7 +145,7 @@ onSearchPressed() {
         		style = {styles.searchInput}
             value = {this.state.searchString}
             onChange={this.onSearchTextChanged.bind(this)}
-        		placeholder = 'Search the Radio channel'/>
+        		placeholder = 'Search the Property'/>
 
         	<TouchableHighlight 
         		style = {styles.button}

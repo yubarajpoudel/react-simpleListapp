@@ -34,7 +34,7 @@ class nrnradioApp extends React.Component{
 		 <ReactNative.NavigatorIOS
         style={styles.container}
         initialRoute={{
-          title: 'Nrn Radio',
+          title: 'Property Finder',
           component: SearchPage,
         }}/>
 		);
