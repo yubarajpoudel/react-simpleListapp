@@ -1,3 +1,8 @@
+
+// author : yubaraj Poudel
+// email : yubarajpoudel708@gmail.com
+
+
 'use strict';
 
 var PropertyView = require('./ItemDetailView');

@@ -3,6 +3,10 @@
  * https://github.com/facebook/react-native
  * @flow
  */
+ 
+// author : yubaraj Poudel
+// email : yubarajpoudel708@gmail.com
+
 
 
 'use strict'; //This enables Strict Mode, which adds improved error handling and disables some less-than-ideal JavaScript language features. In simple terms, it makes JavaScript better!
